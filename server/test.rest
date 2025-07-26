@@ -1,0 +1,13 @@
+###
+POST http://localhost:4000/admins/register 
+Content-Type: application/json
+
+{
+    "name":"Aksh",
+    "email":"aksh90@gmail.com",
+    "password":"aksh092",
+    "phone":"9876547992",
+    "shop_name":"kirana stores",
+    "address":"23-9-3 hyd"
+
+}
