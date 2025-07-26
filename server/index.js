@@ -37,6 +37,7 @@ app.use(cors({
     credentials: true,
     origin: 'http://localhost:4000'
 }));
+console.log("hi")
 app.use(express.json());
 // app.use("/users",UserRoute);
 // app.use("/products",ProductRoute);
